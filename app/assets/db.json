@@ -1,0 +1,1182 @@
+[
+  {
+    "number": 1,
+    "symbol": "H",
+    "name": "Hidrógeno",
+    "mass": "1.0",
+    "row": 1,
+    "col": 1,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 2,
+    "symbol": "He",
+    "name": "Helio",
+    "mass": "4.0",
+    "row": 1,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  },
+  {
+    "number": 3,
+    "symbol": "Li",
+    "name": "Litio",
+    "mass": "6.9",
+    "row": 2,
+    "col": 1,
+    "category": "Metales alcalinos",
+    "color": "#FF6666"
+  },
+  {
+    "number": 4,
+    "symbol": "Be",
+    "name": "Berilio",
+    "mass": "9.0",
+    "row": 2,
+    "col": 2,
+    "category": "Alcalinotérreos",
+    "color": "#FFDE59"
+  },
+  {
+    "number": 5,
+    "symbol": "B",
+    "name": "Boro",
+    "mass": "10.8",
+    "row": 2,
+    "col": 13,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 6,
+    "symbol": "C",
+    "name": "Carbono",
+    "mass": "12.0",
+    "row": 2,
+    "col": 14,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 7,
+    "symbol": "N",
+    "name": "Nitrógeno",
+    "mass": "14.0",
+    "row": 2,
+    "col": 15,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 8,
+    "symbol": "O",
+    "name": "Oxígeno",
+    "mass": "15.9",
+    "row": 2,
+    "col": 16,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 9,
+    "symbol": "F",
+    "name": "Flúor",
+    "mass": "19.0",
+    "row": 2,
+    "col": 17,
+    "category": "Halógenos",
+    "color": "#FFAA00"
+  },
+  {
+    "number": 10,
+    "symbol": "Ne",
+    "name": "Neón",
+    "mass": "20.2",
+    "row": 2,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  },
+  {
+    "number": 11,
+    "symbol": "Na",
+    "name": "Sodio",
+    "mass": "23.0",
+    "row": 3,
+    "col": 1,
+    "category": "Metales alcalinos",
+    "color": "#FF6666"
+  },
+  {
+    "number": 12,
+    "symbol": "Mg",
+    "name": "Magnesio",
+    "mass": "24.3",
+    "row": 3,
+    "col": 2,
+    "category": "Alcalinotérreos",
+    "color": "#FFDE59"
+  },
+  {
+    "number": 13,
+    "symbol": "Al",
+    "name": "Aluminio",
+    "mass": "27.0",
+    "row": 3,
+    "col": 13,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 14,
+    "symbol": "Si",
+    "name": "Silicio",
+    "mass": "28.1",
+    "row": 3,
+    "col": 14,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 15,
+    "symbol": "P",
+    "name": "Fósforo",
+    "mass": "31.0",
+    "row": 3,
+    "col": 15,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 16,
+    "symbol": "S",
+    "name": "Azúfre",
+    "mass": "32.1",
+    "row": 3,
+    "col": 16,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 17,
+    "symbol": "Cl",
+    "name": "Cloro",
+    "mass": "35.5",
+    "row": 3,
+    "col": 17,
+    "category": "Halógenos",
+    "color": "#FFAA00"
+  },
+  {
+    "number": 18,
+    "symbol": "Ar",
+    "name": "Argón",
+    "mass": "39.9",
+    "row": 3,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  },
+  {
+    "number": 19,
+    "symbol": "K",
+    "name": "Potasio",
+    "mass": "39.1",
+    "row": 4,
+    "col": 1,
+    "category": "Metales alcalinos",
+    "color": "#FF6666"
+  },
+  {
+    "number": 20,
+    "symbol": "Ca",
+    "name": "Calcio",
+    "mass": "40.1",
+    "row": 4,
+    "col": 2,
+    "category": "Alcalinotérreos",
+    "color": "#FFDE59"
+  },
+  {
+    "number": 21,
+    "symbol": "Sc",
+    "name": "Escandio",
+    "mass": "45.0",
+    "row": 4,
+    "col": 3,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 22,
+    "symbol": "Ti",
+    "name": "Titanio",
+    "mass": "47.9",
+    "row": 4,
+    "col": 4,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 23,
+    "symbol": "V",
+    "name": "Vanadio",
+    "mass": "50.9",
+    "row": 4,
+    "col": 5,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 24,
+    "symbol": "Cr",
+    "name": "Cromo",
+    "mass": "52.0",
+    "row": 4,
+    "col": 6,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 25,
+    "symbol": "Mn",
+    "name": "Manganeso",
+    "mass": "54.9",
+    "row": 4,
+    "col": 7,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 26,
+    "symbol": "Fe",
+    "name": "Hierro",
+    "mass": "55.8",
+    "row": 4,
+    "col": 8,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 27,
+    "symbol": "Co",
+    "name": "Cobalto",
+    "mass": "58.9",
+    "row": 4,
+    "col": 9,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 28,
+    "symbol": "Ni",
+    "name": "Níquel",
+    "mass": "58.7",
+    "row": 4,
+    "col": 10,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 29,
+    "symbol": "Cu",
+    "name": "Cobre",
+    "mass": "63.5",
+    "row": 4,
+    "col": 11,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 30,
+    "symbol": "Zn",
+    "name": "Cinc",
+    "mass": "65.4",
+    "row": 4,
+    "col": 12,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 31,
+    "symbol": "Ga",
+    "name": "Galio",
+    "mass": "69.7",
+    "row": 4,
+    "col": 13,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 32,
+    "symbol": "Ge",
+    "name": "Germanio",
+    "mass": "72.6",
+    "row": 4,
+    "col": 14,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 33,
+    "symbol": "As",
+    "name": "Arsénico",
+    "mass": "74.9",
+    "row": 4,
+    "col": 15,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 34,
+    "symbol": "Se",
+    "name": "Selenio",
+    "mass": "79.0",
+    "row": 4,
+    "col": 16,
+    "category": "No metales",
+    "color": "#A4E17C"
+  },
+  {
+    "number": 35,
+    "symbol": "Br",
+    "name": "Bromo",
+    "mass": "79.9",
+    "row": 4,
+    "col": 17,
+    "category": "Halógenos",
+    "color": "#FFAA00"
+  },
+  {
+    "number": 36,
+    "symbol": "Kr",
+    "name": "Kriptón",
+    "mass": "83.8",
+    "row": 4,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  },
+  {
+    "number": 37,
+    "symbol": "Rb",
+    "name": "Rubidio",
+    "mass": "85.5",
+    "row": 5,
+    "col": 1,
+    "category": "Metales alcalinos",
+    "color": "#FF6666"
+  },
+  {
+    "number": 38,
+    "symbol": "Sr",
+    "name": "Estroncio",
+    "mass": "87.6",
+    "row": 5,
+    "col": 2,
+    "category": "Alcalinotérreos",
+    "color": "#FFDE59"
+  },
+  {
+    "number": 39,
+    "symbol": "Y",
+    "name": "Itrio",
+    "mass": "88.9",
+    "row": 5,
+    "col": 3,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 40,
+    "symbol": "Zr",
+    "name": "Circonio",
+    "mass": "91.2",
+    "row": 5,
+    "col": 4,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 41,
+    "symbol": "Nb",
+    "name": "Niobio",
+    "mass": "92.9",
+    "row": 5,
+    "col": 5,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 42,
+    "symbol": "Mo",
+    "name": "Molibdeno",
+    "mass": "95.9",
+    "row": 5,
+    "col": 6,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 43,
+    "symbol": "Tc",
+    "name": "Tecnecio",
+    "mass": "(99)",
+    "row": 5,
+    "col": 7,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 44,
+    "symbol": "Ru",
+    "name": "Rutenio",
+    "mass": "101.1",
+    "row": 5,
+    "col": 8,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 45,
+    "symbol": "Rh",
+    "name": "Rodio",
+    "mass": "102.9",
+    "row": 5,
+    "col": 9,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 46,
+    "symbol": "Pd",
+    "name": "Paladio",
+    "mass": "106.4",
+    "row": 5,
+    "col": 10,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 47,
+    "symbol": "Ag",
+    "name": "Plata",
+    "mass": "107.9",
+    "row": 5,
+    "col": 11,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 48,
+    "symbol": "Cd",
+    "name": "Cadmio",
+    "mass": "112.4",
+    "row": 5,
+    "col": 12,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 49,
+    "symbol": "In",
+    "name": "Indio",
+    "mass": "118.7",
+    "row": 5,
+    "col": 13,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 50,
+    "symbol": "Sn",
+    "name": "Estaño",
+    "mass": "118.7",
+    "row": 5,
+    "col": 14,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 51,
+    "symbol": "Sb",
+    "name": "Antimonio",
+    "mass": "121.8",
+    "row": 5,
+    "col": 15,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 52,
+    "symbol": "Te",
+    "name": "Teluro",
+    "mass": "127.6",
+    "row": 5,
+    "col": 16,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 53,
+    "symbol": "I",
+    "name": "Yodo",
+    "mass": "126.9",
+    "row": 5,
+    "col": 17,
+    "category": "Halógenos",
+    "color": "#FFAA00"
+  },
+  {
+    "number": 54,
+    "symbol": "Xe",
+    "name": "Xenón",
+    "mass": "131.3",
+    "row": 5,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  },
+  {
+    "number": 55,
+    "symbol": "Cs",
+    "name": "Cesio",
+    "mass": "132.9",
+    "row": 6,
+    "col": 1,
+    "category": "Metales alcalinos",
+    "color": "#FF6666"
+  },
+  {
+    "number": 56,
+    "symbol": "Ba",
+    "name": "Bario",
+    "mass": "137.3",
+    "row": 6,
+    "col": 2,
+    "category": "Alcalinotérreos",
+    "color": "#FFDE59"
+  },
+  {
+    "number": 57,
+    "symbol": "La",
+    "name": "Lantano",
+    "mass": "138.9",
+    "row": 9,
+    "col": 3,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 58,
+    "symbol": "Ce",
+    "name": "Cerio",
+    "mass": "140.1",
+    "row": 9,
+    "col": 4,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 59,
+    "symbol": "Pr",
+    "name": "Praseodimio",
+    "mass": "140.9",
+    "row": 9,
+    "col": 5,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 60,
+    "symbol": "Nd",
+    "name": "Neodimio",
+    "mass": "144.2",
+    "row": 9,
+    "col": 6,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 61,
+    "symbol": "Pm",
+    "name": "Prometio",
+    "mass": "(147)",
+    "row": 9,
+    "col": 7,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 62,
+    "symbol": "Sm",
+    "name": "Samario",
+    "mass": "150.3",
+    "row": 9,
+    "col": 8,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 63,
+    "symbol": "Eu",
+    "name": "Europio",
+    "mass": "152.0",
+    "row": 9,
+    "col": 9,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 64,
+    "symbol": "Gd",
+    "name": "Gadolinio",
+    "mass": "157.2",
+    "row": 9,
+    "col": 10,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 65,
+    "symbol": "Tb",
+    "name": "Terbio",
+    "mass": "158.9",
+    "row": 9,
+    "col": 11,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 66,
+    "symbol": "Dy",
+    "name": "Disprosio",
+    "mass": "162.5",
+    "row": 9,
+    "col": 12,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 67,
+    "symbol": "Ho",
+    "name": "Holmio",
+    "mass": "164.9",
+    "row": 9,
+    "col": 13,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 68,
+    "symbol": "Er",
+    "name": "Erbio",
+    "mass": "167.3",
+    "row": 9,
+    "col": 14,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 69,
+    "symbol": "Tm",
+    "name": "Tulio",
+    "mass": "168.9",
+    "row": 9,
+    "col": 15,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 70,
+    "symbol": "Yb",
+    "name": "Iterbio",
+    "mass": "173.0",
+    "row": 9,
+    "col": 16,
+    "category": "Lantánidos",
+    "color": "#FFB3BA"
+  },
+  {
+    "number": 71,
+    "symbol": "Lu",
+    "name": "Lutecio",
+    "mass": "175.0",
+    "row": 7,
+    "col": 3,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 72,
+    "symbol": "Hf",
+    "name": "Hafnio",
+    "mass": "178.5",
+    "row": 6,
+    "col": 4,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 73,
+    "symbol": "Ta",
+    "name": "Tantalo",
+    "mass": "180.9",
+    "row": 6,
+    "col": 5,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 74,
+    "symbol": "W",
+    "name": "Wolframio",
+    "mass": "183.8",
+    "row": 6,
+    "col": 6,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 75,
+    "symbol": "Re",
+    "name": "Renio",
+    "mass": "186.2",
+    "row": 6,
+    "col": 7,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 76,
+    "symbol": "Os",
+    "name": "Osmio",
+    "mass": "190.2",
+    "row": 6,
+    "col": 8,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 77,
+    "symbol": "Ir",
+    "name": "Iridio",
+    "mass": "192.2",
+    "row": 6,
+    "col": 9,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 78,
+    "symbol": "Pt",
+    "name": "Platino",
+    "mass": "195.1",
+    "row": 6,
+    "col": 10,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 79,
+    "symbol": "Au",
+    "name": "Oro",
+    "mass": "197.0",
+    "row": 6,
+    "col": 11,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 80,
+    "symbol": "Hg",
+    "name": "Mercurio",
+    "mass": "200.6",
+    "row": 6,
+    "col": 12,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 81,
+    "symbol": "Tl",
+    "name": "Talio",
+    "mass": "204.4",
+    "row": 6,
+    "col": 13,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 82,
+    "symbol": "Pb",
+    "name": "Plomo",
+    "mass": "207.2",
+    "row": 6,
+    "col": 14,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 83,
+    "symbol": "Bi",
+    "name": "Bismuto",
+    "mass": "209.2",
+    "row": 6,
+    "col": 15,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 84,
+    "symbol": "Po",
+    "name": "Polonio",
+    "mass": "(210)",
+    "row": 6,
+    "col": 16,
+    "category": "Metaloides",
+    "color": "#A4DDED"
+  },
+  {
+    "number": 85,
+    "symbol": "At",
+    "name": "Astato",
+    "mass": "(210)",
+    "row": 6,
+    "col": 17,
+    "category": "Halógenos",
+    "color": "#FFAA00"
+  },
+  {
+    "number": 86,
+    "symbol": "Rn",
+    "name": "Radón",
+    "mass": "222",
+    "row": 6,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  },
+  {
+    "number": 87,
+    "symbol": "Fr",
+    "name": "Francio",
+    "mass": "(233)",
+    "row": 7,
+    "col": 1,
+    "category": "Metales alcalinos",
+    "color": "#FF6666"
+  },
+  {
+    "number": 88,
+    "symbol": "Ra",
+    "name": "Radio",
+    "mass": "(266)",
+    "row": 7,
+    "col": 2,
+    "category": "Alcalinotérreos",
+    "color": "#FFDE59"
+  },
+  {
+    "number": 89,
+    "symbol": "Ac",
+    "name": "Actinio",
+    "mass": "(227)",
+    "row": 10,
+    "col": 3,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 90,
+    "symbol": "Th",
+    "name": "Torio",
+    "mass": "232.0",
+    "row": 10,
+    "col": 4,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 91,
+    "symbol": "Pa",
+    "name": "Protactinio",
+    "mass": "(231)",
+    "row": 10,
+    "col": 5,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 92,
+    "symbol": "U",
+    "name": "Uranio",
+    "mass": "238.0",
+    "row": 10,
+    "col": 6,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 93,
+    "symbol": "Np",
+    "name": "Neptunio",
+    "mass": "(237)",
+    "row": 10,
+    "col": 7,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 94,
+    "symbol": "Pu",
+    "name": "Plutonio",
+    "mass": "(242)",
+    "row": 10,
+    "col": 8,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 95,
+    "symbol": "Am",
+    "name": "Americio",
+    "mass": "(243)",
+    "row": 10,
+    "col": 9,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 96,
+    "symbol": "Cm",
+    "name": "Curio",
+    "mass": "(247)",
+    "row": 10,
+    "col": 10,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 97,
+    "symbol": "Bk",
+    "name": "Berquelio",
+    "mass": "(247)",
+    "row": 10,
+    "col": 11,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 98,
+    "symbol": "Cf",
+    "name": "Californio",
+    "mass": "(251)",
+    "row": 10,
+    "col": 12,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 99,
+    "symbol": "Es",
+    "name": "Einstenio",
+    "mass": "(252)",
+    "row": 10,
+    "col": 13,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 100,
+    "symbol": "Fm",
+    "name": "Fermio",
+    "mass": "(257)",
+    "row": 10,
+    "col": 14,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 101,
+    "symbol": "Md",
+    "name": "Mendelevio",
+    "mass": "(256)",
+    "row": 10,
+    "col": 15,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 102,
+    "symbol": "No",
+    "name": "Nobelio",
+    "mass": "(259)",
+    "row": 10,
+    "col": 16,
+    "category": "Actínidos",
+    "color": "#FFDAC1"
+  },
+  {
+    "number": 103,
+    "symbol": "Lr",
+    "name": "Laurencio",
+    "mass": "(262)",
+    "row": 6,
+    "col": 3,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 104,
+    "symbol": "Rf",
+    "name": "Rutherfordio",
+    "mass": "(261.1)",
+    "row": 7,
+    "col": 4,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 105,
+    "symbol": "Db",
+    "name": "Dubnio",
+    "mass": "(262.1)",
+    "row": 7,
+    "col": 5,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 106,
+    "symbol": "Sg",
+    "name": "Seaborgio",
+    "mass": "(263.1)",
+    "row": 7,
+    "col": 6,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 107,
+    "symbol": "Bh",
+    "name": "Bohrio",
+    "mass": "(264.1)",
+    "row": 7,
+    "col": 7,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 108,
+    "symbol": "Hs",
+    "name": "Hassio",
+    "mass": "(277)",
+    "row": 7,
+    "col": 8,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 109,
+    "symbol": "Mt",
+    "name": "Meitnerio",
+    "mass": "(268)",
+    "row": 7,
+    "col": 9,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 110,
+    "symbol": "Ds",
+    "name": "Darmstatio",
+    "mass": "(271)",
+    "row": 7,
+    "col": 10,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 111,
+    "symbol": "Rg",
+    "name": "Roentgenio",
+    "mass": "(272)",
+    "row": 7,
+    "col": 11,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 112,
+    "symbol": "Cn",
+    "name": "Copernicio",
+    "mass": "(285)",
+    "row": 7,
+    "col": 12,
+    "category": "Metales de transición",
+    "color": "#FFD1DC"
+  },
+  {
+    "number": 113,
+    "symbol": "Nh",
+    "name": "Nihonio",
+    "mass": null,
+    "row": 7,
+    "col": 13,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 114,
+    "symbol": "Fl",
+    "name": "Flerovio",
+    "mass": "(289)",
+    "row": 7,
+    "col": 14,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 115,
+    "symbol": "Mc",
+    "name": "Moscovio",
+    "mass": "288",
+    "row": 7,
+    "col": 15,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 116,
+    "symbol": "Lv",
+    "name": "Livermorio",
+    "mass": "(292)",
+    "row": 7,
+    "col": 16,
+    "category": "Otros metales",
+    "color": "#C7C7C7"
+  },
+  {
+    "number": 117,
+    "symbol": "Ts",
+    "name": "Teneso",
+    "mass": "(294)",
+    "row": 7,
+    "col": 17,
+    "category": "Halógenos",
+    "color": "#FFAA00"
+  },
+  {
+    "number": 118,
+    "symbol": "Og",
+    "name": "Oganesón",
+    "mass": "(294)",
+    "row": 7,
+    "col": 18,
+    "category": "Gases nobles",
+    "color": "#B28BFF"
+  }
+]

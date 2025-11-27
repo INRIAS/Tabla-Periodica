@@ -1,0 +1,48 @@
+.tabla-periodica {
+    /* Responsive grid for 18 columns but flexible cell width
+         - use minmax so each column can grow but never shrink smaller than a usable minimum
+         - allow horizontal scrolling on very small screens instead of squashing everything
+    */
+    display: grid;
+    grid-template-columns: repeat(18, minmax(40px, 1fr));
+    /* rows may be implicit depending on the cells; keep spacing manageable */
+    gap: 6px;
+    width: 100%;
+    max-width: 1400px; /* prevents huge stretches on very wide screens */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    overflow-x: auto; /* enable horizontal scroll on very small viewports */
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Style for table cells (assumes you add .element to each item) */
+.tabla-periodica > .element {
+    /* Keep each cell square and center content */
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.05);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
+    font-size: clamp(0.7rem, 1.6vw, 1.05rem);
+}
+
+/* Make sure text and controls inside cells scale well */
+.tabla-periodica .symbol {
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES: tune breakpoints to keep table usable on phones */
+@media (max-width: 900px) {
+    .tabla-periodica { grid-template-columns: repeat(18, minmax(32px, 1fr)); gap: 4px; }
+    .tabla-periodica > .element { font-size: clamp(0.6rem, 2.2vw, 0.9rem); }
+}
+
+@media (max-width: 480px) {
+    /* very small devices: keep min width readable, allow horizontal scrolling */
+    .tabla-periodica { grid-template-columns: repeat(18, minmax(28px, 1fr)); }
+    .tabla-periodica > .element { font-size: 0.7rem; padding: 0.2rem; }
+}
