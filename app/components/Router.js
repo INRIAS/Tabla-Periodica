@@ -1,5 +1,5 @@
 import { ajax } from "../helpers/ajax.js";
-import { Element } from "./Element.js";
+import { Elements } from "./Elements.js";
 
 export async function Router() {
   const d = document,
@@ -8,6 +8,7 @@ export async function Router() {
 
   let { hash } = location;
 
+
   if (hash === "") {
     await ajax({
       url: `./app/assets/db.json`,
@@ -15,7 +16,7 @@ export async function Router() {
         console.log(main);
         let html = "";
         main.forEach((el) => {
-          html += Element(el);
+          html += Elements(el);
         });
         $table.innerHTML = html;
       },

@@ -1,67 +1,125 @@
 :root {
-    --main-font: sans-serif;
-    --font-size: 16px;
-    --main-color: #f7df1e;
+  --main-font: sans-serif;
+  --font-size: 16px;
+  --main-color: #f7df1e;
 }
 
 html {
-    box-sizing: border-box;
-    font-family: var(--main-font);
-    font-size: var(--font-size);
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 
 }
 
-.main-container,
-main{
-  /* ensure main centers its content horizontally */
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
+
+/* ----------Elemento--------- */
+
+.element-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  color: #fff;
+  border-radius: 10px;
+  padding: .1rem 0;
+}
+
+.div2 h2{
+  font-size: 3rem;
+}
+
+.div2 .number-mass {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+  font-size:clamp(1rem, 1rem + 1vw, 1.5rem) ;
+  font-weight: bold;
+}
+
+
+/* -----Elementos de la tabla------------ */
 
 .tabla-periodica {
-  /* Treat the grid like an inline element so it can be centered by the parent
-     The columns use minmax to keep a reasonable minimum on small screens */
-  display: inline-grid;
+  display: grid;
   grid-template-columns: repeat(18, minmax(36px, 4.5vw));
-  grid-auto-rows: minmax(36px, 6.5vh);
-  gap: 6px;
-  width: auto; /* size to content so parent flex can center it */
+  grid-auto-rows: minmax(36px, 7.5vh);
+  gap: 4px;
+  width: auto;
   max-width: calc(100% - 2rem);
   padding: 0.5rem;
 }
 
- .element {
-  border: 1px solid #f3dcdc;
+.element {
+  border: .5px solid #000000;
   padding: 4px;
   font-family: sans-serif;
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   border-radius: 2px;
+  color: #fff;
 }
 
+.element:hover {
+  transform: scale(2);
+  animation: oscillateShadow 1s infinite;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+
+
 .sim {
-  font-size: 20px;
+  font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
   font-weight: bold;
 }
 
-/* If you want the table to take the full width instead, use this class */
-.tabla-periodica.full-width {
-  display: grid;
-  width: min(100%, 1400px);
-  margin: 0 auto;
+.name {
+  font-size: clamp(.2rem, .2rem + .5vw, .5rem);
+  font-weight: bold;
+}
+
+/* Animaciones */
+@keyframes oscillateShadow {
+  0% {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  }
+
+  100% {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  }
 }
