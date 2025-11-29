@@ -1,0 +1,46 @@
+[
+    {
+        "category": "Metales de transición",
+        "color": "#0088CE"
+    },
+    {
+        "category": "Actínidos",
+        "color": "#67A484"
+    },
+    {
+        "category": "Alcalinotérreos",
+        "color": "#FDBA12"
+    },
+    {
+        "category": "Gases nobles",
+        "color": "#006A36"
+    },
+    {
+        "category": "Halógenos",
+        "color": "#A2B427"
+    },
+    {
+        "category": "Lantánidos",
+        "color": "#CBD48E"
+    },
+    {
+        "category": "Metales alcalinos",
+        "color": "#002A4E"
+    },
+    {
+        "category": "Metales de transición",
+        "color": "#0088CE"
+    },
+    {
+        "category": "Metaloides",
+        "color": "#ED1944"
+    },
+    {
+        "category": "No metales",
+        "color": "#F58021"
+    },
+    {
+        "category": "Otros metales",
+        "color": "#781E77"
+    }
+]

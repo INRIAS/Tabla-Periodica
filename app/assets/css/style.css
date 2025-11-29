@@ -28,50 +28,61 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
 }
 
 /* ----------Elemento--------- */
 
-.element-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 35vw;
+.element-card, h2, h3, .number-mass, p{
+  margin: 0;
 }
 
-.div2 {
+.element-card{
+  width: 8.5vw;
+  height: 17vh; 
+  border: 0.1rem solid #000000;
+  border-radius: 4px;
+  padding: .5rem;
+  animation: oscillateShadow 1.5s infinite;
+  color: #fff;
+}
+
+.div2{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 50%;
-  height: auto;
-  color: #fff;
-  border-radius: 10px;
-  padding: .1rem 0;
+  width: 100%;
+  height: 100%;
 }
 
 .div2 h2{
   font-size: 3rem;
 }
 
-.div2 .number-mass {
+.number-mass{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  padding: 0 15px;
-  font-size:clamp(1rem, 1rem + 1vw, 1.5rem) ;
-  font-weight: bold;
+  padding: 0 .3rem;
 }
 
+
+
+/* font-size:clamp(1rem, 1rem + 1vw, 1.5rem) ; */
 
 /* -----Elementos de la tabla------------ */
 
 .tabla-periodica {
   display: grid;
-  grid-template-columns: repeat(18, minmax(36px, 4.5vw));
-  grid-auto-rows: minmax(36px, 7.5vh);
+  grid-template-columns: repeat(18, minmax(36px, 3.1vw));
+  grid-auto-rows: minmax(36px, 6.1vh);
   gap: 4px;
   width: auto;
   max-width: calc(100% - 2rem);
@@ -92,7 +103,7 @@ main {
 }
 
 .element:hover {
-  transform: scale(2);
+  transform: scale(2.5);
   animation: oscillateShadow 1s infinite;
   z-index: 10;
   transition: all 0.3s ease-in-out;
@@ -105,7 +116,7 @@ main {
 }
 
 .name {
-  font-size: clamp(.2rem, .2rem + .5vw, .5rem);
+  font-size: clamp(.15rem, .15rem + .4vw, .4rem);
   font-weight: bold;
 }
 

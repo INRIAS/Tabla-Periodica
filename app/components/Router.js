@@ -1,13 +1,14 @@
 import { ajax } from "../helpers/ajax.js";
+import { Categories } from "./Categories.js";
 import { Elements } from "./Elements.js";
 
 export async function Router() {
   const d = document,
     w = window;
-  let $table = d.getElementById("tabla-periodica");
+  let $table = d.getElementById("tabla-periodica"),
+    $main = d.querySelector("main");
 
   let { hash } = location;
-
 
   if (hash === "") {
     await ajax({
@@ -19,6 +20,28 @@ export async function Router() {
           html += Elements(el);
         });
         $table.innerHTML = html;
+      },
+      cbError: (err) => {
+        console.log(err);
+        $main.innerHTML = `<p class="error">
+        No existen resultados de busqueda para el termino <mark>${query}</mark>
+        </p>`;
+      },
+    });
+  }
+
+  if (hash === "") {
+    await ajax({
+      url: `./app/assets/categories.json`,
+      cbSuccess: (categories) => {
+        console.log(categories);
+        let html = "";
+        categories.forEach((el) => {
+          html += Categories(el);
+        });
+        console.log(html);
+        
+        $main.innerHTML = html;
       },
       cbError: (err) => {
         console.log(err);

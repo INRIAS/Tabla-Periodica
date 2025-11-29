@@ -23,14 +23,14 @@ export function ElementCard() {
     const simText = simSpan ? simSpan.textContent.trim() : "";
     localStorage.setItem("elSim", simText);
 
-    $div2.style.backgroundColor = localStorage.getItem("elColor");
+    $section.style.backgroundColor = localStorage.getItem("elColor");
     $div2.innerHTML = `
     <div class="number-mass">
         <p>${localStorage.getItem("elId")}</p>
         <p>${localStorage.getItem("elMass")}</p>
     </div>
     <h2>${localStorage.getItem("elSim")}</h2>
-      <h3>${localStorage.getItem("elName")}</h3>
+    <h3>${localStorage.getItem("elName")}</h3>
     `;
   });
 
