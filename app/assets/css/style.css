@@ -20,6 +20,10 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  background-image: url("../Fon-2.jpg");
+  background-size: cover;
+  background-position: center;
+
 
 }
 
@@ -29,29 +33,45 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0;
+  backdrop-filter: blur(10px);
+  border: 0.1rem solid #fff;
+  width: 70%;
+  min-height: 80vh;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0 auto;
+  box-shadow: 0px 0px 15px rgba(208, 207, 207, 0.8);
 }
 
-h1{
+h1 {
+  width: 25%;
+  margin: 1rem auto;
+  font-weight: bolder;
+  font-family: var(--main-font);
+  font-size: 2.5rem;
   text-align: center;
+  color: #fff;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* ----------Elemento--------- */
 
-.element-card, h2, h3, .number-mass, p{
+.element-card, h2, h3, .number-mass, p {
   margin: 0;
 }
 
-.element-card{
-  width: 8.5vw;
-  height: 17vh; 
-  border: 0.1rem solid #000000;
+.element-card {
+  width: 8vw;
+  height: 15vh;
+  border: 0.1rem solid #fff;
   border-radius: 4px;
-  padding: .5rem;
-  animation: oscillateShadow 1.5s infinite;
   color: #fff;
+  box-shadow: 0px 0px 10px rgba(186, 185, 185, 0.8);
 }
 
-.div2{
+.div2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,29 +80,63 @@ h1{
   height: 100%;
 }
 
-.div2 h2{
+.div2 h2 {
   font-size: 3rem;
 }
 
-.number-mass{
+.div2 h3 {
+  padding-bottom: .5rem;
+}
+
+.number-mass {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 .3rem;
+  padding: .2rem;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+.show {
+  display: block;
+  opacity: 1;
+  animation: fadeInUp 1s cubic-bezier(.2, .9, .25, 1) both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(16px) scale(.994);
+    filter: blur(3px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.003);
+    filter: blur(0);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 
 
+/* quiero una animacion para que el .hidden  salga suavemente y no de golpe*/
 
-/* font-size:clamp(1rem, 1rem + 1vw, 1.5rem) ; */
 
 /* -----Elementos de la tabla------------ */
 
 .tabla-periodica {
   display: grid;
   grid-template-columns: repeat(18, minmax(36px, 3.1vw));
-  grid-auto-rows: minmax(36px, 6.1vh);
+  grid-template-rows:
+    minmax(36px, 6.1vh) minmax(36px, 6.1vh) minmax(36px, 6.1vh) minmax(36px, 6.1vh) minmax(36px, 6.1vh) minmax(36px, 6.1vh) minmax(36px, 6.1vh) minmax(15px, 2vh);
   gap: 4px;
   width: auto;
   max-width: calc(100% - 2rem);
@@ -90,7 +144,7 @@ h1{
 }
 
 .element {
-  border: .5px solid #000000;
+  border: .5px solid #fff;
   padding: 4px;
   font-family: sans-serif;
   font-size: 12px;
@@ -100,6 +154,7 @@ h1{
   align-items: center;
   border-radius: 2px;
   color: #fff;
+  opacity: 0.8;
 }
 
 .element:hover {
@@ -107,6 +162,7 @@ h1{
   animation: oscillateShadow 1s infinite;
   z-index: 10;
   transition: all 0.3s ease-in-out;
+  opacity: 0.95;
 }
 
 
@@ -120,17 +176,67 @@ h1{
   font-weight: bold;
 }
 
+
+/* ---------Categories----------- */
+
+#full-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: .5rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.color {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .2rem;
+  border-radius: 2px;
+}
+
+.category-name {
+  display: inline;
+  font-size: .7rem;
+  white-space: nowrap;
+  font-weight: bolder;
+}
+
+
+
 /* Animaciones */
 @keyframes oscillateShadow {
   0% {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 1px rgba(1, 1, 1, 0.4);
   }
 
   50% {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 5px rgb(255, 255, 255, 0.8);
   }
 
   100% {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 1px rgba(113, 111, 111, 0.4);
+  }
+}
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+  main {
+    width: 90%;
+  }
+  .element-card {
+    width: 10vw;
+    height: 18vh;
   }
 }

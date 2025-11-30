@@ -6,7 +6,9 @@ export async function Router() {
   const d = document,
     w = window;
   let $table = d.getElementById("tabla-periodica"),
-    $main = d.querySelector("main");
+    $main = d.querySelector("main"),
+    $fullCategory = d.createElement("div");
+  $fullCategory.id = "full-category";
 
   let { hash } = location;
 
@@ -14,7 +16,7 @@ export async function Router() {
     await ajax({
       url: `./app/assets/db.json`,
       cbSuccess: (main) => {
-        console.log(main);
+        // console.log(main);
         let html = "";
         main.forEach((el) => {
           html += Elements(el);
@@ -22,7 +24,7 @@ export async function Router() {
         $table.innerHTML = html;
       },
       cbError: (err) => {
-        console.log(err);
+        // console.log(err);
         $main.innerHTML = `<p class="error">
         No existen resultados de busqueda para el termino <mark>${query}</mark>
         </p>`;
@@ -34,14 +36,15 @@ export async function Router() {
     await ajax({
       url: `./app/assets/categories.json`,
       cbSuccess: (categories) => {
-        console.log(categories);
+        // console.log(categories);
         let html = "";
         categories.forEach((el) => {
           html += Categories(el);
         });
-        console.log(html);
-        
-        $main.innerHTML = html;
+        // console.log(html);
+
+        $fullCategory.innerHTML = html;
+        $main.insertAdjacentElement("beforeend", $fullCategory);
       },
       cbError: (err) => {
         console.log(err);
